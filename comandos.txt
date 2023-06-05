@@ -1,0 +1,32 @@
+175  git init
+  176  git remote add origin https://github.com/FabricioAcosta/05062023-FabricioAcosta.git
+  177  touch comandos.txt main.js index.html
+  178  git status
+  179  git add .
+  180  git status
+  181  git commit -m "commit 01 de Fabricio Acosta"
+  182  git push origin main
+  183  git checkout -b feature
+  184  git checkout feature
+  185  mkdir Hardware Software SeguridadInformatica
+  186  git checkout main
+  187  git checkout feature
+  188  cd Hardware
+  189  touch resumen.txt
+  190  cd ..
+  191  cd SeguridadInformatica
+  192  touch resumen.txt
+  193  cd ..
+  194  cd Software
+  195  touch resumen.txt
+  196  cd ..
+  197  git status
+  198  git add .
+  199  git add .
+  200  git status
+  201  git commit -m "commit 02 de Fabricio Acosta"
+  202  git push origin feature
+  203  git checkout main
+  204  mv main.js resumenHardware.txt
+  205  mv index.html resumenSoftware.txt
+  206  history
